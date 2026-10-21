@@ -7,9 +7,12 @@
 <link rel="stylesheet" href="../styles.css">
 <style>body{padding:20px 16px;max-width:520px;margin:0 auto}</style>
 </head>
+<!-- h1 bewusst außerhalb von .legal: loadLegal() (legal.js) übernimmt nur .legal ins
+     App-interne About-Sheet, wo der App-Name schon aus dem Kontext klar ist. Der Header
+     ist nur für Besucher relevant, die diese Seite eigenständig aufrufen (z. B. vom Play-Store-Eintrag). -->
 <body>
+<h1 style="margin:0 0 16px">Fitness Tracker</h1>
 <div class="legal">
-  <h1 style="margin-bottom:16px">Fitness Tracker</h1>
   <h4>Datenschutz</h4>
   <p class="date" style="margin:-2px 0 10px">Stand: 21.10.2026</p>
   <p>Alle Daten (Trainingsplan, Verlauf, Gewichte) werden ausschließlich lokal auf diesem Gerät gespeichert. Es findet keine Übertragung an den Anbieter, dessen Server oder Dritte statt. Die App benötigt für ihre Kernfunktionen keine Internetverbindung und enthält keine Analyse-, Tracking- oder Werbe-SDKs.</p>
